@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build-prod": "npx parcel build src/index.html"
+    "build-prod": "parcel build"
   },
   "dependencies": {
     "parcel": "^2.0.1"
