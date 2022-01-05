@@ -233,5 +233,8 @@ a:focus .ra {
 .invite-text {
   max-width: 90ch;
   margin: auto;
-  font-size: 5rem;
+  font-size: 2.2rem;
+  @media (min-width: 800px) {
+    font-size: 2rem;
+  }
 }
