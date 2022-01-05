@@ -29,6 +29,8 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow: hidden;
 }
 /*
   6. Improve media defaults
@@ -83,7 +85,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
   position: relative;
 }
@@ -233,8 +235,11 @@ a:focus .ra {
 .invite-text {
   max-width: 90ch;
   margin: auto;
-  font-size: 2.2rem;
-  @media (min-width: 800px) {
+  font-size: 2.8rem;
+}
+
+@media (min-width: 900px) {
+  .invite-text {
     font-size: 2rem;
   }
 }
