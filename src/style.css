@@ -80,7 +80,7 @@ h1 {
 
 html {
   background-color: #f3f0ec;
-  --blob-1-size: clamp(50px, 70vw, 1000px);
+  --blob-1-size: clamp(50px, 65vw, 1000px);
 }
 
 body {
@@ -161,7 +161,7 @@ a:focus .ra {
 
 .blob-1 {
   position: absolute;
-  top: calc(-0.3 * var(--blob-1-size));
+  top: calc(-0.4 * var(--blob-1-size));
   left: calc(-0.4 * var(--blob-1-size));
   width: var(--blob-1-size);
   height: auto;
@@ -228,9 +228,9 @@ a:focus .ra {
   max-width: 1000px;
   margin: auto;
   padding: 2rem;
-  padding-top: calc(var(--blob-1-size) * 0.3);
-  padding-bottom: calc(var(--blob-1-size) * 0.4);
-  min-height: calc(100vh - var(--blob-1-size) * 0.4);
+  padding-top: calc(var(--blob-1-size) * 0.2);
+  padding-bottom: calc(var(--blob-1-size) * 0.45);
+  min-height: calc(100vh - 90px);
 }
 
 .invite-text {
