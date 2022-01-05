@@ -5,7 +5,7 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "devDependencies": {
+  "dependencies": {
     "parcel": "^2.0.1"
   }
 }
