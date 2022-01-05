@@ -7,17 +7,17 @@ Project to celebrate Ali and Cory's engagement and invite to an event.
 First install dependencies:
 
 ```sh
-yarn
+npm install
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-yarn start
+npm run start
 ```
 
 To create a production build:
 
 ```sh
-yarn build
+npm run build-prod
 ```
