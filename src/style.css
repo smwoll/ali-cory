@@ -237,11 +237,11 @@ a:focus .ra {
   width: 100%;
   max-width: 90ch;
   margin: auto;
-  font-size: max(2.8rem, 38px);
+  font-size: 4rem;
   overflow: hidden;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .invite-text {
     font-size: 2rem;
   }
