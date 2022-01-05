@@ -1,34 +1,23 @@
 # ali-cory
 
-Empty project.
+Project to celebrate Ali and Cory's engagement and invite to an event.
 
 ## Building and running on localhost
 
 First install dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 To run in hot module reloading mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 To create a production build:
 
 ```sh
-npm run build-prod
+yarn build
 ```
-
-## Running
-
-```sh
-node dist/bundle.js
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
-
